@@ -56,7 +56,7 @@ body{
     display: inline-block;
     padding-left: 15px;
 }
-.lanc-card:hover{
+.lanc-card:hover img{
     opacity: 0.5;
 }
 .lanc-card img{
@@ -81,7 +81,7 @@ body{
     display: inline-block;
     padding-left: 15px;
 }
-.eps-card:hover{
+.eps-card:hover img{
     opacity: 0.5;
 }
 .eps-card img{
