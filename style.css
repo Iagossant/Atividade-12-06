@@ -8,6 +8,15 @@
 
 body{
     margin: 0;
+    padding: 0;
+}
+
+hr{
+    margin-top: -10px;
+    margin-left: 4%;
+    margin-right: 4%;
+    margin-bottom: 40px;
+    opacity: 0.3;
 }
 
 .menu{
@@ -49,10 +58,10 @@ body{
     margin-left: 20px;
 }
 .lanc h2{
-    padding-left: 4%;
-    border-bottom: 5px solid black;
+    padding-left: 5%;
 }
 .lanc-card{
+    width: 120px;
     display: inline-block;
     padding-left: 15px;
 }
@@ -66,18 +75,21 @@ body{
     text-decoration: none;
 }
 .lanc-card p{
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
     text-align: center;
     margin-top: -4px;
 }
 
 .eps h2{
-    padding-left: 4%;
-    border-bottom: 5px solid black;
+    padding-left: 5%;
 }
 .eps div{
     margin: 20px;
 }
 .eps-card{
+    width: 120px;
     display: inline-block;
     padding-left: 15px;
 }
@@ -91,6 +103,9 @@ body{
     text-decoration: none;
 }
 .eps-card p{
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
     text-align: center;
     margin-top: -4px;
 }
