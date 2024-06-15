@@ -1,4 +1,4 @@
-@media only screen and (max-width: 1005px){
+@media screen and (max-width: 1005px){
    .menu nav{
      display: none;
    }
